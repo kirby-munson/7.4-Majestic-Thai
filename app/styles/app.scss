@@ -6,6 +6,9 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 
 
+$orange:#e55b5b;
+
+
 *,
 *::before,
 *::after {
@@ -14,4 +17,70 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 
 img {
   max-width: 100%;
+}
+.nav{
+  background-color: $orange;
+  height: 200px;
+  margin-bottom: 20px;
+  h1{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px;
+    color: white;
+    border: 4px solid white;
+    border-radius: 5px;
+    margin: 20px;
+    text-shadow: 2px 2px #b8b8b8;
+  }
+}
+
+h3 {
+  text-align: center;
+}
+
+.menu-list{
+  font-family: 'Open Sans', sans-serif;
+  ul {
+    list-style-type: none;
+    overflow: scroll;
+    height: 500px;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.well{
+  padding: -19px;
+}
+
+.add {
+  height: 30px;
+  width: 60px;
+  float: right;
+  vertical-align: middle;
+  line-height: 20px;
+}
+
+.remove {
+  height: 30px;
+  width: 100px;
+  float: right;
+  vertical-align: middle;
+  line-height: 20px;
+}
+
+.float {
+  clear: both;
+}
+
+
+.order{
+  font-family: 'Open Sans', sans-serif;
+  p{
+    float: right;
+  }
 }
