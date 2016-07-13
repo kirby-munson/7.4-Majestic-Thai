@@ -50,7 +50,7 @@ var MenuOrderingComponent = React.createClass({
       this.forceUpdate();
     },
     handlePlaceOrder: function(){
-      this.state.cartItems.sync();
+      this.state.cartItems.invoke('save');
       this.forceUpdate();
     },
     render: function(){
